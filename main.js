@@ -33,11 +33,7 @@ window.onscroll = ()=>{
           } else {
                 up.classList.remove("left")  
           };
-
-
-
-      
-
+     
 };
 
 
@@ -60,7 +56,6 @@ burger.onclick = () => {
         bars.classList.toggle("fa-xmark");
        
 };
-
 
 //slideshow
 const slideshow = document.getElementById("slideshow");
